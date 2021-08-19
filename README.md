@@ -34,4 +34,4 @@ Precision = TP/TP+FP <br>
 Recall = TP/TP+FN<br>
 F1 Score = 2*(Recall * Precision) / (Recall + Precision)<br>
 
-[Model Score and Classficiation Report](https://github.com/adriana-icasiano/supervised_machine_learning_challenge/tree/main/Images)
+![Model Score and Classficiation Report](https://github.com/adriana-icasiano/supervised_machine_learning_challenge/blob/main/Images/model_score.PNG)
