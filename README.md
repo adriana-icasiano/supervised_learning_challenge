@@ -2,6 +2,14 @@
 
 Build a machine learning model that attempts to predict whether a loan from LendingClub will become high risk or not. 
 
+
+## Table of Contents ##
+* [Background](#Background)
+* [Data](#Data)
+* [Preprocessing](#Preprocessing)
+* [Educated Guesses](#Educated-Guesses)
+* [Analysis](#Analysis)
+
 ## Background
 
 LendingClub is a peer-to-peer lending services company that allows individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. LendingClub offers their previous data through an API.
@@ -13,7 +21,7 @@ You will be using this data to create machine learning models to classify the ri
 Training data: Entire year's worth of data (2019)
 Test data: Credit risk of loans from the first quarter of the next year (2020).
 
-## Preprocessing: Convert categorical data to numeric
+## Preprocessing
 
 Data was converted from cateogrical to numberical using `pd.get_dummies()`. Categories in the 2019 loans that do not exist in the testing set (2020) was normalized by adding dummy variables in the testing set.
 
