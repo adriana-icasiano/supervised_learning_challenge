@@ -29,9 +29,9 @@ Based on the training and testing score comparison, the LogisticRegression model
 
 Based on the hyperparameter tuned SVC model using grid search estimator, the SVC model with Grid Search Estimated provided a slightly better classification report than with the Randomized Search Estimator. Both methods uses 2351 out of 12180 datapoints as support.
 
-Accuracy = TP+TN/TP+FP+FN+TN
-Precision = TP/TP+FP
-Recall = TP/TP+FN
-F1 Score = 2*(Recall * Precision) / (Recall + Precision)
+Accuracy = TP+TN/TP+FP+FN+TN <br>
+Precision = TP/TP+FP <br>
+Recall = TP/TP+FN<br>
+F1 Score = 2*(Recall * Precision) / (Recall + Precision)<br>
 
-![Model Score and Classficiation Report](https://github.com/adriana-icasiano/supervised_machine_learning_challenge/tree/main/Images)
+[Model Score and Classficiation Report](https://github.com/adriana-icasiano/supervised_machine_learning_challenge/tree/main/Images)
